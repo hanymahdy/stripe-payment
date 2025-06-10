@@ -28,8 +28,8 @@ serve(async (req) => {
         quantity: 1,
       }],
       mode: "payment",
-      success_url: "https://example.com/success",
-      cancel_url: "https://example.com/cancel",
+      success_url: "https://getpower.infinityfreeapp.com/success.php",
+      cancel_url: "https://https://getpower.infinityfreeapp.com/cancel.php",
       customer_email,
     });
 
